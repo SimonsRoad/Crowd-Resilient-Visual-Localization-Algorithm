@@ -1,0 +1,4 @@
+To evaluate the impact of background extraction to localization performance, we selected one reference image for each video as the matched background image in order to control others parameters in the algorithm pipeline.
+To make the format compatible to what is used in algorithm pipeline, we still keep the rest of images existed in the matrix, however, the SIFT features for other images are masked.
+The reference image Id is extracted from the 3D environmental information, which is generated through 3D reconstruction process using SFM software.
+To be specific, we use visual SFM to reconstruct the UMass Campus Center with an unordered collection of images (less than 400 images). After that, we extracted useful information from the .nvm file and saved them into .mat files. All the files are saved in the folder named environment database.

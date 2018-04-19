@@ -1,0 +1,3 @@
+To run the code, you need to change the directory based on your own settings. 
+Since the visual localization algorithm is built with OpenCV libary, you need to setup the mexopencv on your Matlab in order to use the Matlab wrapper of OpenCV functions.
+Besides, all the codes working with data are stored under test folder.
